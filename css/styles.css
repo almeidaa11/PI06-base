@@ -18,6 +18,16 @@ body {
 .email{
   color: rgb(212, 135, 33);
 }
+.flex{
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.color-text{
+  background-color: rgb(201, 199, 199);
+}
   /* Barra de navegação */
   header, .navbar {
     background-color: #3a3b3b;
