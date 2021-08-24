@@ -210,8 +210,8 @@ body {
   
   #company-img {
     background-image: url('../img/empresa.jpg');
-    background-size: cover;
-    height: 100%;
+    background-size: cover; 
+    height: 101%;
   }
   
   #pattern-img h4, #pattern-img p {
@@ -278,12 +278,12 @@ body {
   
   #news-area {
     text-align: center;
-    background-color: #F9F9F9;
+    background-color: #b9b4b4;
   }
-  
+
   #news-area p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 50px;
+    margin-bottom: 30px;
   }
   
   #email-input {
@@ -336,11 +336,12 @@ body {
     color: #FFF;
     font-weight: bold;
     font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
     margin-bottom: 0;
+    display: inline;
     height: 60px;
     line-height: 60px;
-    letter-spacing: 2px;
-    display: inline;
   }
   
   #call-area #call-btn {
@@ -350,6 +351,7 @@ body {
     margin-left: 30px;
     font-size: 20px;
     width: auto;
+    height: 70px;
     letter-spacing: 2px;
   }
   
@@ -380,7 +382,7 @@ body {
     font-size: 16px;
   }
   
-  .contact-tile {
+  .contact-title {
     font-weight: bold;
     color: rgb(212, 135, 33);
   }
@@ -389,14 +391,14 @@ body {
     font-size: 22px;
   }
   
-  #contact-form input[type="text"], #contact-form textarea {
-    margin-bottom: 15px;
+  #contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 30px;
     border-radius: 0;
   }
   
   #contact-form .main-btn {
     width: 120px;
-    height: 50px;
+    height: 65px;
   }
   
   #contact-form .main-btn:hover {
@@ -406,7 +408,7 @@ body {
   /* Copy */
   
   #copy-area {
-    background-color: #F1F1F1;
+    background-color: #919191;
   }
   
   #copy-area .container {

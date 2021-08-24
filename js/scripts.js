@@ -7,14 +7,14 @@ $( document ).ready(function() {
   
       color: '#d48721',
       strokeWidth: 10,
-      duration: 1400,
+      duration: 1000,
       from: { color: '#aaa'},
       to: { color: '#d48721'},
   
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 60);
+        var value = Math.round(circle.value() * 1);
         circle.setText(value);
   
       }
@@ -27,14 +27,14 @@ $( document ).ready(function() {
   
       color: '#d48721',
       strokeWidth: 10,
-      duration: 1600,
+      duration: 1200,
       from: { color: '#aaa'},
       to: { color: '#d48721'},
   
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 254);
+        var value = Math.round(circle.value() * 1);
         circle.setText(value);
   
       }
@@ -47,14 +47,14 @@ $( document ).ready(function() {
   
       color: '#d48721',
       strokeWidth: 10,
-      duration: 1800,
+      duration: 1400,
       from: { color: '#aaa'},
       to: { color: '#d48721'},
   
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 32);
+        var value = Math.round(circle.value() * 4);
         circle.setText(value);
   
       }
@@ -67,14 +67,14 @@ $( document ).ready(function() {
   
       color: '#d48721',
       strokeWidth: 10,
-      duration: 2000,
+      duration: 1600,
       from: { color: '#aaa'},
       to: { color: '#d48721'},
   
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 5423);
+        var value = Math.round(circle.value() * 6);
         circle.setText(value);
   
       }
@@ -119,12 +119,12 @@ $( document ).ready(function() {
       $('.main-btn').removeClass('active');
       $(this).addClass('active');
   
-      if(type == 'dsg-btn') {
-        eachBoxes('dsg', boxes);
-      } else if(type == 'dev-btn') {
-        eachBoxes('dev', boxes);
-      } else if(type == 'seo-btn') {
-        eachBoxes('seo', boxes);
+      if(type == 'mv-btn') {
+        eachBoxes('mv', boxes);
+      } else if(type == 'dc-btn') {
+        eachBoxes('dc', boxes);
+      } else if(type == 'vg-btn') {
+        eachBoxes('vg', boxes);
       } else {
         eachBoxes('all', boxes);
       }
@@ -138,7 +138,7 @@ $( document ).ready(function() {
       } else {
         $(boxes).each(function() {
           if(!$(this).hasClass(type)) {
-            $(this).fadeOut('slow');
+            $(this).fadeOut('fast');
           } else {
             $(this).fadeIn();
           }
@@ -150,11 +150,10 @@ $( document ).ready(function() {
   
     let navBtn = $('.nav-item');
   
-    let bannerSection = $('#mainSlider');
+    let homeSection = $('#homeSlider');
     let aboutSection = $('#about-area');
-    let servicesSection = $('#services-area');
+    let heroiSection = $('#services-area');
     let teamSection = $('#team-area');
-    let portfolioSection = $('#portfolio-area');
     let contactSection = $('#contact-area');
   
     let scrollTo = '';
@@ -163,18 +162,18 @@ $( document ).ready(function() {
   
       let btnId = $(this).attr('id');
   
-      if(btnId == 'about-menu') {
+      if(btnId == 'home-menu') {
+        scrollTo = homeSection;
+      } else if(btnId == 'about-menu') {
         scrollTo = aboutSection;
-      } else if(btnId == 'services-menu') {
-        scrollTo = servicesSection;
+      } else if(btnId == 'heroi-menu') {
+        scrollTo = heroiSection;
       } else if(btnId == 'team-menu') {
         scrollTo = teamSection;
-      } else if(btnId == 'portfolio-menu') {
-        scrollTo = portfolioSection;
       } else if(btnId == 'contact-menu') {
         scrollTo = contactSection;
       } else {
-        scrollTo = bannerSection;
+        scrollTo = heroiSection;
       }
   
       $([document.documentElement, document.body]).animate({
