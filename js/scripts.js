@@ -54,7 +54,7 @@ $( document ).ready(function() {
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 4);
+        var value = Math.round(circle.value() * 5);
         circle.setText(value);
   
       }
@@ -74,7 +74,7 @@ $( document ).ready(function() {
       step: function(state, circle) {
         circle.path.setAttribute('stroke', state.color);
   
-        var value = Math.round(circle.value() * 6);
+        var value = Math.round(circle.value() * 9);
         circle.setText(value);
   
       }
@@ -123,8 +123,8 @@ $( document ).ready(function() {
         eachBoxes('mv', boxes);
       } else if(type == 'dc-btn') {
         eachBoxes('dc', boxes);
-      } else if(type == 'vg-btn') {
-        eachBoxes('vg', boxes);
+      } else if(type == 'ma-btn') {
+        eachBoxes('ma', boxes);
       } else {
         eachBoxes('all', boxes);
       }
@@ -152,7 +152,7 @@ $( document ).ready(function() {
   
     let homeSection = $('#homeSlider');
     let aboutSection = $('#about-area');
-    let heroiSection = $('#services-area');
+    let ferramentaSection = $('#services-area');
     let teamSection = $('#team-area');
     let contactSection = $('#contact-area');
   
@@ -166,14 +166,14 @@ $( document ).ready(function() {
         scrollTo = homeSection;
       } else if(btnId == 'about-menu') {
         scrollTo = aboutSection;
-      } else if(btnId == 'heroi-menu') {
-        scrollTo = heroiSection;
+      } else if(btnId == 'ferramenta-menu') {
+        scrollTo = ferramentaSection;
       } else if(btnId == 'team-menu') {
         scrollTo = teamSection;
       } else if(btnId == 'contact-menu') {
         scrollTo = contactSection;
       } else {
-        scrollTo = heroiSection;
+        scrollTo = homeSection;
       }
   
       $([document.documentElement, document.body]).animate({
