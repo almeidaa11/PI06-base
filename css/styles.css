@@ -20,7 +20,7 @@ body {
 }
 .flex{
   max-width: 400px;
-  padding: 10px;
+  padding: 30px;
   border: 2px solid rgb(0, 0, 0);
   display: flex;
 }
@@ -83,8 +83,10 @@ body {
   }
   
   #mainSlider .carousel-caption h2 {
-    font-size: 70px;
+    text-align: center;
+    font-size: 30px;
     margin-bottom: 10px;
+    margin-top: 40px;
   }
   
   #mainSlider .carousel-caption p {
@@ -449,7 +451,8 @@ body {
   
   /* responsive */
   @media(max-width: 768px) {
-    
+
+
     /* geral */
     .container {
       padding: 20px 0;
@@ -461,11 +464,11 @@ body {
     }
   
     #mainSlider .carousel-caption h2 {
-      font-size: 28px;
+      font-size: 20px;
     }
   
     #mainSlider .carousel-caption p {
-      font-size: 18px;
+      font-size: 15px;
       margin-bottom: 40px;
     }
   
