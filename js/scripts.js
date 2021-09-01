@@ -154,6 +154,7 @@ $( document ).ready(function() {
     let aboutSection = $('#about-area');
     let ferramentaSection = $('#services-area');
     let teamSection = $('#team-area');
+    let universoSection = $('#universo-area');
     let contactSection = $('#contact-area');
   
     let scrollTo = '';
@@ -168,6 +169,8 @@ $( document ).ready(function() {
         scrollTo = aboutSection;
       } else if(btnId == 'ferramenta-menu') {
         scrollTo = ferramentaSection;
+      }else if(btnId == 'universo-menu') {
+        scrollTo = universoSection;
       } else if(btnId == 'team-menu') {
         scrollTo = teamSection;
       } else if(btnId == 'contact-menu') {
