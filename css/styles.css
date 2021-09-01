@@ -25,6 +25,10 @@ body {
   display: flex;
 }
 
+.rodape{
+  font-size: 18px;
+}
+
 .color-text{
   background-color: rgb(201, 199, 199);
 }
@@ -79,24 +83,34 @@ body {
   }
   
   #mainSlider .carousel-caption {
-    top: 25%;
+    top: 30%;
   }
   
   #mainSlider .carousel-caption h2 {
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 30px;
   }
   
   #mainSlider .carousel-caption p {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
     margin-bottom: 100px;
     color: #FFF;
   }
   
   .main-btn {
+    background-color: rgb(212, 135, 33);
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.3s;
+  }
+  .main-btn2 {
     background-color: rgb(212, 135, 33);
     color: #FFF;
     text-transform: uppercase;
@@ -111,6 +125,12 @@ body {
   .main-btn:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: rgb(212, 135, 33);
+  }
+  .main-btn2:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-color: rgb(212, 135, 33);
   }
@@ -215,7 +235,7 @@ body {
   /* Trabalhe conosco */
   
   #apply-area {
-    height: 500px;
+    height: 600px;
   }
   
   #apply-area .container-fluid, #apply-area .row {
@@ -266,7 +286,8 @@ body {
   /* Portfólio */
   
   .project-box {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
   }
   
   #filter-btn-box {
@@ -284,7 +305,7 @@ body {
     width: auto;
     height: 40px;
     line-height: 40px;
-    padding: 0 20px;
+    padding: 0 50px;
   }
   
   #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
@@ -464,11 +485,11 @@ body {
     }
   
     #mainSlider .carousel-caption h2 {
-      font-size: 20px;
+      font-size: 28px;
     }
   
     #mainSlider .carousel-caption p {
-      font-size: 15px;
+      font-size: 18px;
       margin-bottom: 40px;
     }
   
@@ -492,23 +513,22 @@ body {
     }
     
     /* team */
-    .card-img-top{
-      width: 50px;
-      height: 100px;
-
-    }
 
     .card-title {
-      font-size: 14px;
+      font-size: 18px;
     }
   
     .card-text {
-      font-size: 12px;
+      font-size: 13px;
+    }
+
+    .filter-btn{
+      margin-top: 20px;
     }
   
     /* apply */
     #apply-area .apply-box {
-      padding: 50px 25px;
+      padding: 120px 100px;
     }
   
     /* news */
@@ -536,13 +556,21 @@ body {
   
   }
   
-  
-  @media(max-width: 425px) {
-
-    .card-img-top{
-      height: 300px;
-      width: 350px;
+  @media(max-width: 1024px){
+    #mainSlider .carousel-caption {
+      top: 20%;
     }
+    
+    #mainSlider .carousel-caption h2 {
+      text-align: center;
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+    .carousel-indicators{
+      bottom: auto;
+    }
+  }
+  @media(max-width: 425px) {
 
     /* slider */
     #mainSlider {
@@ -556,6 +584,7 @@ body {
     #mainSlider .carousel-caption h2 {
       font-size: 18px;
       margin-bottom: 40px;
+      margin-top: 13px;
     }
   
     #mainSlider .carousel-caption p {
@@ -582,7 +611,7 @@ body {
       width: 50%;
     }
   
-    #team-area .col-md-3 {
+    #team-area .col-md-4 {
       width: 50%;
       margin-bottom: 30px;
     }
@@ -590,10 +619,6 @@ body {
     /* apply */
     #apply-area {
       height: auto;
-    }
-  
-    #company-img {
-      display: none;
     }
   
     /* filter */
