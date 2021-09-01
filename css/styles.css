@@ -182,7 +182,6 @@ body {
     margin-right: 15px;
   }
   
-  /* Heróis */
   
   .service-box {
     text-align: center;
@@ -557,6 +556,65 @@ body {
   }
   
   @media(max-width: 1024px){
+    #apply-btn:hover {
+      border-color: rgb(212, 135, 33);
+      background-color: rgb(212, 135, 33);
+    }
+    #copy-area .container a:hover {
+      text-decoration: none;
+      color: rgb(212, 135, 33);
+    }
+    #contact-form .main-btn:hover {
+      color: rgb(212, 135, 33);
+    }
+    #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+      color: rgb(255, 255, 255);
+      border: 1px solid rgb(212, 135, 33);
+      background-color: rgb(212, 135, 33);
+    }
+    .carousel-indicators{
+      bottom: 20%;
+    }
+    .main-btn {
+      background-color: rgb(212, 135, 33);
+      color: #FFF;
+      text-transform: uppercase;
+      width: 200px;
+      height: 60px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: 3px solid transparent;
+      transition: 0.3s;
+    }
+    .main-btn2 {
+      background-color: rgb(212, 135, 33);
+      color: #FFF;
+      text-transform: uppercase;
+      width: 200px;
+      height: 60px;
+      padding: 20px 30px;
+      border-radius: 30px;
+      border: 3px solid transparent;
+      transition: 0.3s;
+    }
+    
+    .main-btn:hover {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      border-color: rgb(212, 135, 33);
+    }
+    .main-btn2:hover {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      border-color: rgb(212, 135, 33);
+    }
+    
+    .carousel-indicators .active {
+      background-color: rgb(212, 135, 33);
+    }
+
     #mainSlider .carousel-caption {
       top: 20%;
     }
@@ -566,8 +624,28 @@ body {
       font-size: 45px;
       margin-bottom: 20px;
     }
-    .carousel-indicators{
-      bottom: auto;
+    .service-box {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .service-box i, .service-box h4 {
+      transition: .5s;
+    }
+    
+    .service-box i {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    
+    .service-box h4 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .service-box:hover > i, .service-box:hover > h4 {
+      color: rgb(212, 135, 33);
     }
   }
   @media(max-width: 425px) {
