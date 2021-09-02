@@ -152,7 +152,6 @@ $( document ).ready(function() {
   
     let homeSection = $('#homeSlider');
     let aboutSection = $('#about-area');
-    let ferramentaSection = $('#services-area');
     let teamSection = $('#team-area');
     let universoSection = $('#universo-area');
     let contactSection = $('#contact-area');
@@ -167,9 +166,7 @@ $( document ).ready(function() {
         scrollTo = homeSection;
       } else if(btnId == 'about-menu') {
         scrollTo = aboutSection;
-      } else if(btnId == 'ferramenta-menu') {
-        scrollTo = ferramentaSection;
-      }else if(btnId == 'universo-menu') {
+      } else if(btnId == 'universo-menu') {
         scrollTo = universoSection;
       } else if(btnId == 'team-menu') {
         scrollTo = teamSection;
