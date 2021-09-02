@@ -39,7 +39,7 @@ body {
 
   /* Barra de navegação */
   header, .navbar {
-    background-color: #004853;
+    background-color: #262837;
   }
   
   #nav-container {
@@ -154,7 +154,7 @@ body {
   
   .main-title::after {
     content: "";
-    border-top: 2px solid #004853;
+    border-top: 2px solid #262837;
     width: 15%;
     position: absolute;
     top: 60px;
@@ -163,7 +163,7 @@ body {
   
   .about-title {
     font-size: 17px;
-    color: #004853;
+    color: #262837;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -195,7 +195,7 @@ body {
   .service-box i {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #004853;
+    color: #262837;
   }
   
   .service-box h4 {
@@ -295,8 +295,8 @@ body {
   }
   
   #portfolio-area .filter-btn {
-    color: #004853;
-    border: 1px solid #004853;
+    color: #262837;
+    border: 1px solid #262837;
     background-color: transparent;
     text-transform: none;
     margin: 0 15px;
@@ -407,8 +407,8 @@ body {
   }
   
   .contact-box i {
-    color: #004853;
-    border: solid 1px #004853;
+    color: #262837;
+    border: solid 1px #262837;
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -461,7 +461,7 @@ body {
   
   #copy-area .container a {
     font-weight: bold;
-    color: #004853;
+    color: #262837;
   }
   
   #copy-area .container a:hover {
