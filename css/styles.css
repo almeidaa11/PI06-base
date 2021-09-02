@@ -16,7 +16,7 @@ body {
     font-size: 14px;
   }
 .email{
-  color: rgb(212, 135, 33);
+  color: #FB6900;
 }
 .flex{
   max-width: 400px;
@@ -34,12 +34,12 @@ body {
 }
 
 .img-color{
-  border: 2px solid rgb(212, 135, 33);
+  border: 2px solid #FB6900;
 }
 
   /* Barra de navegação */
   header, .navbar {
-    background-color: #3a3b3b;
+    background-color: #004853;
   }
   
   #nav-container {
@@ -61,7 +61,7 @@ body {
   }
   
   #navbar-links a {
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -100,7 +100,7 @@ body {
   }
   
   .main-btn {
-    background-color: rgb(212, 135, 33);
+    background-color: #FB6900;
     color: #FFF;
     text-transform: uppercase;
     width: 200px;
@@ -111,7 +111,7 @@ body {
     transition: 0.3s;
   }
   .main-btn2 {
-    background-color: rgb(212, 135, 33);
+    background-color: #FB6900;
     color: #FFF;
     text-transform: uppercase;
     width: 200px;
@@ -126,17 +126,17 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: transparent;
-    border-color: rgb(212, 135, 33);
+    border-color: #FB6900;
   }
   .main-btn2:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    border-color: rgb(212, 135, 33);
+    border-color: #FB6900;
   }
   
   .carousel-indicators .active {
-    background-color: rgb(212, 135, 33);
+    background-color: #FB6900;
   }
   
   /* Sobre a empresa */
@@ -146,7 +146,7 @@ body {
   }
   
   .main-title {
-    color: rgb(212, 135, 33);
+    color: #FB6900;
     margin: 0 0 65px 0;
     font-size: 45px;
     text-align: center;
@@ -154,7 +154,7 @@ body {
   
   .main-title::after {
     content: "";
-    border-top: 2px solid #333;
+    border-top: 2px solid #004853;
     width: 15%;
     position: absolute;
     top: 60px;
@@ -163,7 +163,7 @@ body {
   
   .about-title {
     font-size: 17px;
-    color: #444;
+    color: #004853;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -178,7 +178,7 @@ body {
   }
   
   #about-list i {
-    color: rgb(212, 135, 33);
+    color: #FB6900;
     margin-right: 15px;
   }
 
@@ -195,7 +195,7 @@ body {
   .service-box i {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #444;
+    color: #004853;
   }
   
   .service-box h4 {
@@ -204,7 +204,7 @@ body {
   }
   
   .service-box:hover > i, .service-box:hover > h4 {
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   /* Dados */
@@ -278,8 +278,8 @@ body {
   }
   
   #apply-btn:hover {
-    border-color: rgb(212, 135, 33);
-    background-color: rgb(212, 135, 33);
+    border-color: #FB6900;
+    background-color: #FB6900;
   }
   
   /* Portfólio */
@@ -295,8 +295,8 @@ body {
   }
   
   #portfolio-area .filter-btn {
-    color: #444;
-    border: 1px solid #444;
+    color: #004853;
+    border: 1px solid #004853;
     background-color: transparent;
     text-transform: none;
     margin: 0 15px;
@@ -309,8 +309,8 @@ body {
   
   #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(212, 135, 33);
-    background-color: rgb(212, 135, 33);
+    border: 1px solid #FB6900;
+    background-color: #FB6900;
   }
   
   /* News Letter */
@@ -329,7 +329,7 @@ body {
     border-radius: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border: 1px solid rgb(212, 135, 33);
+    border: 1px solid #FB6900;
     display: inline;
     box-sizing: border-box;
     width: 40%;
@@ -339,8 +339,8 @@ body {
   #news-btn {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid rgb(212, 135, 33);
-    background-color: rgb(212, 135, 33);
+    border: 1px solid #FB6900;
+    background-color: #FB6900;
     color: #FFF;
     text-transform: uppercase;
     height: 40px;
@@ -352,13 +352,13 @@ body {
   
   #news-btn:hover {
     background-color: #FFF;
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   /* Call To Action */
   
   #call-area {
-    background-color: rgb(212, 135, 33);
+    background-color: #FB6900;
     text-transform: uppercase;
   }
   
@@ -385,7 +385,7 @@ body {
   
   #call-area #call-btn {
     background-color: #FFF;
-    color: rgb(212, 135, 33);
+    color: #FB6900;
     font-weight: bold;
     margin-left: 30px;
     font-size: 20px;
@@ -403,12 +403,12 @@ body {
   .contact-box {
     padding-bottom: 50px;
     margin-bottom: 50px;
-    border-bottom: 1px solid rgb(212, 135, 33);
+    border-bottom: 1px solid #FB6900;
   }
   
   .contact-box i {
-    color: #444;
-    border: solid 1px #444;
+    color: #004853;
+    border: solid 1px #004853;
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -423,7 +423,7 @@ body {
   
   .contact-title {
     font-weight: bold;
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   #msg-box p {
@@ -441,7 +441,7 @@ body {
   }
   
   #contact-form .main-btn:hover {
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   /* Copy */
@@ -461,12 +461,12 @@ body {
   
   #copy-area .container a {
     font-weight: bold;
-    color: #444;
+    color: #004853;
   }
   
   #copy-area .container a:hover {
     text-decoration: none;
-    color: rgb(212, 135, 33);
+    color: #FB6900;
   }
   
   /* responsive */
