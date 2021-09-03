@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleção</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/wikihero-logo.png" type="image/x-icon">
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!-- Estilos -->
@@ -30,12 +30,16 @@
           <!-- add essa class -->
           <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <a class="navbar-brand" href="index.html">
-              <img id="logo" src="img/wikihero-logo.png" alt="Kruv"> Kruv
+              <img id="logo" src="img/wikihero-logo.png" alt="Kruv"> WikiHero
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+              <form class="d-flex search">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+              </form>
               <div class="navbar-nav">
                 <a class="nav-item nav-link" id="back-menu" href="index.html">Voltar</a>
               </div>
@@ -129,6 +133,17 @@
               </div>
           </div>
       </main>
+    <footer>
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <p class="color-text2">Desenvolvido por <strong>Bruno Almeida, Fabiano Ohfugi, Pedro Cunha, Gabriel Abreu, Rafael Carvalho e Luís Filipe</strong>  &copy;2021</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/scripts.js"></script>
 </body>
 </html>

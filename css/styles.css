@@ -1,4 +1,8 @@
 /* Gerais */
+.color-text2{
+  color: #FB6900;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
   }
@@ -447,7 +451,7 @@ body {
   /* Copy */
   
   #copy-area {
-    background-color: #919191;
+    background-color: #262837;
   }
   
   #copy-area .container {
