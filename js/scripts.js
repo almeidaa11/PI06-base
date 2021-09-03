@@ -166,7 +166,7 @@ $( document ).ready(function() {
         scrollTo = homeSection;
       } else if(btnId == 'about-menu') {
         scrollTo = aboutSection;
-      } else if(btnId == 'universo-menu') {
+      }else if(btnId == 'universo-menu') {
         scrollTo = universoSection;
       } else if(btnId == 'team-menu') {
         scrollTo = teamSection;
